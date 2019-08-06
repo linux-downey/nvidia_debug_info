@@ -1,0 +1,149 @@
+null
+    Discard all samples (playback) or generate zero samples (capture)
+pulse
+    PulseAudio Sound Server
+default
+    Playback/recording through the PulseAudio sound server
+music
+demixer
+voice
+aux_plug
+music_and_voice
+hdmi:CARD=tegrahda,DEV=0
+    tegra-hda, HDMI 0
+    HDMI Audio Output
+dmix:CARD=tegrahda,DEV=3
+    tegra-hda, HDMI 0
+    Direct sample mixing device
+dsnoop:CARD=tegrahda,DEV=3
+    tegra-hda, HDMI 0
+    Direct sample snooping device
+hw:CARD=tegrahda,DEV=3
+    tegra-hda, HDMI 0
+    Direct hardware device without any conversions
+plughw:CARD=tegrahda,DEV=3
+    tegra-hda, HDMI 0
+    Hardware device with all software conversions
+sysdefault:CARD=jetsonnanowm896
+    jetson-nano-wm8960, 
+    Default Audio Device
+dmix:CARD=jetsonnanowm896,DEV=0
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=1
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=2
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=3
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=4
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=5
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=6
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=7
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=8
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dmix:CARD=jetsonnanowm896,DEV=9
+    jetson-nano-wm8960, 
+    Direct sample mixing device
+dsnoop:CARD=jetsonnanowm896,DEV=0
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=1
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=2
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=3
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=4
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=5
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=6
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=7
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=8
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+dsnoop:CARD=jetsonnanowm896,DEV=9
+    jetson-nano-wm8960, 
+    Direct sample snooping device
+hw:CARD=jetsonnanowm896,DEV=0
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=1
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=2
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=3
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=4
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=5
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=6
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=7
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=8
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+hw:CARD=jetsonnanowm896,DEV=9
+    jetson-nano-wm8960, 
+    Direct hardware device without any conversions
+plughw:CARD=jetsonnanowm896,DEV=0
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=1
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=2
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=3
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=4
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=5
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=6
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=7
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=8
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
+plughw:CARD=jetsonnanowm896,DEV=9
+    jetson-nano-wm8960, 
+    Hardware device with all software conversions
